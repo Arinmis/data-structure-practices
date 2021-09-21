@@ -18,10 +18,9 @@
 public class Program {
 
     /* Answer: since array is copied shallowly
-       it B[4] also will be 550.
-
-       To obtain fully independent copy of A
-       we should implement 'deep copy'*/
+       it B[4] also will be 550.To obtain fully 
+       independent copy of 'deep copy' should 
+       be implemented */
     public static void main(String[] args) {
         // create GameEntry array with random score
         GameEntry[] A = new GameEntry[5];
